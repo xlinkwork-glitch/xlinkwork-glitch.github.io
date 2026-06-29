@@ -9,7 +9,7 @@ Jekyll 静态博客，托管于 GitHub Pages（`xlinkwork-glitch.github.io`）�
 **每次提交前必须验证 repo 级别的 git 身份，绝不能用全局身份暴露个人信息。**
 
 ```bash
-# 验证（必做）
+# 步骤 1：验证本地身份（必做，每次开新会话都要确认）
 git config --local user.email
 git config --local user.name
 
@@ -17,11 +17,22 @@ git config --local user.name
 git config --local user.email "xlinkwork-glitch@users.noreply.github.com"
 git config --local user.name "xlinkwork-glitch"
 
-# SSH 推送
+# 步骤 2：验证 remote 使用正确的 SSH alias（必做）
+git remote -v
+# 正确输出应包含 github-xlinkwork，而不是 github.com：
+# origin  git@github-xlinkwork:xlinkwork-glitch/... (fetch)
+# origin  git@github-xlinkwork:xlinkwork-glitch/... (push)
+
+# 若 remote 显示 github.com，立即修正（否则会走 机器上的默认 SSH key）：
+git remote set-url origin git@github-xlinkwork:xlinkwork-glitch/xlinkwork-glitch-xlinkwork-glitch.github.io.git
+
+# 步骤 3：推送
 git push origin main
 ```
 
 **必须使用本仓库自己的仓库级身份，绝不能落到机器上的全局身份**（作者栏和提交者栏都要核对）。本文件是公开的，禁止写入任何个人真实姓名或其他账号的用户名、邮箱。
+
+> ⚠️ **教训（2026-06）**：重建 GitHub 仓库后，GitHub 给出的初始化命令用的是 `git@github.com:...`，这会走 机器上的默认 SSH key 导致推送失败或身份泄露。每次重建仓库后必须手动把 remote 改为 `github-xlinkwork` alias 再推送。
 
 ---
 
