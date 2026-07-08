@@ -29,8 +29,8 @@
     <circle cx="28" cy="21" r="8" fill="#0e9f6e"/>
     <text x="48" y="28" fill="#c8dcff" font-size="19" font-weight="700">跨境办公 · 专线加速</text>
   </g>
-  <text x="80" y="278" fill="#ffffff" font-size="68" font-weight="800">独享 IP 专线</text>
-  <text x="80" y="358" fill="#b8ccee" font-size="40" font-weight="700">IEPL 出口，只服务你一人</text>
+  <text x="80" y="278" fill="#ffffff" font-size="68" font-weight="800">跨境网络稳定方案</text>
+  <text x="80" y="358" fill="#b8ccee" font-size="40" font-weight="700">IEPL 专线 · 独享纯净 IP</text>
   <text x="80" y="428" fill="#7a9cc8" font-size="26">低延迟直连 · ChatGPT / Zoom 畅通</text>
   <g transform="translate(80,478)">
     <rect rx="22" width="300" height="44" fill="#0e9f6e" fill-opacity="0.14" stroke="#0e9f6e" stroke-opacity="0.55"/>
