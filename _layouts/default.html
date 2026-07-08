@@ -128,36 +128,36 @@
           <div class="lang-dropdown">
             <button class="lang-dropdown__btn" aria-label="Switch language">
               {% case lang %}
-                {% when 'en' %}🇺🇸 EN
-                {% when 'vi' %}🇻🇳 Tiếng Việt
-                {% when 'ja' %}🇯🇵 日本語
-                {% when 'ko' %}🇰🇷 한국어
-                {% when 'tr' %}🇹🇷 Türkçe
-                {% when 'zh-HK' %}🇭🇰 繁體中文(港)
-                {% when 'zh-TW' %}🇹🇼 繁體中文(台)
-                {% when 'id' %}🇮🇩 Bahasa Indonesia
-                {% when 'ru' %}🇷🇺 Русский
-                {% when 'de' %}🇩🇪 Deutsch
-                {% when 'nl' %}🇳🇱 Nederlands
-                {% when 'fr' %}🇫🇷 Français
-                {% else %}🇨🇳 中文
+                {% when 'en' %}EN
+                {% when 'vi' %}Tiếng Việt
+                {% when 'ja' %}日本語
+                {% when 'ko' %}한국어
+                {% when 'tr' %}Türkçe
+                {% when 'zh-HK' %}繁體中文(港)
+                {% when 'zh-TW' %}繁體中文(台)
+                {% when 'id' %}Bahasa Indonesia
+                {% when 'ru' %}Русский
+                {% when 'de' %}Deutsch
+                {% when 'nl' %}Nederlands
+                {% when 'fr' %}Français
+                {% else %}中文
               {% endcase %}
               <span class="lang-dropdown__arrow">▾</span>
             </button>
             <ul class="lang-dropdown__menu">
-              <li><a href="/" onclick="try{localStorage.setItem('tbao_lang','en')}catch(e){}" {% if lang == 'en' %}class="active"{% endif %}>🇺🇸 English</a></li>
-              <li><a href="/zh/" onclick="try{localStorage.setItem('tbao_lang','zh')}catch(e){}" {% if lang == 'zh' %}class="active"{% endif %}>🇨🇳 中文</a></li>
-              <li><a href="/zh-HK/" onclick="try{localStorage.setItem('tbao_lang','zh-HK')}catch(e){}" {% if lang == 'zh-HK' %}class="active"{% endif %}>🇭🇰 繁體中文(港)</a></li>
-              <li><a href="/zh-TW/" onclick="try{localStorage.setItem('tbao_lang','zh-TW')}catch(e){}" {% if lang == 'zh-TW' %}class="active"{% endif %}>🇹🇼 繁體中文(台)</a></li>
-              <li><a href="/ja/" onclick="try{localStorage.setItem('tbao_lang','ja')}catch(e){}" {% if lang == 'ja' %}class="active"{% endif %}>🇯🇵 日本語</a></li>
-              <li><a href="/ko/" onclick="try{localStorage.setItem('tbao_lang','ko')}catch(e){}" {% if lang == 'ko' %}class="active"{% endif %}>🇰🇷 한국어</a></li>
-              <li><a href="/vi/" onclick="try{localStorage.setItem('tbao_lang','vi')}catch(e){}" {% if lang == 'vi' %}class="active"{% endif %}>🇻🇳 Tiếng Việt</a></li>
-              <li><a href="/id/" onclick="try{localStorage.setItem('tbao_lang','id')}catch(e){}" {% if lang == 'id' %}class="active"{% endif %}>🇮🇩 Bahasa Indonesia</a></li>
-              <li><a href="/tr/" onclick="try{localStorage.setItem('tbao_lang','tr')}catch(e){}" {% if lang == 'tr' %}class="active"{% endif %}>🇹🇷 Türkçe</a></li>
-              <li><a href="/ru/" onclick="try{localStorage.setItem('tbao_lang','ru')}catch(e){}" {% if lang == 'ru' %}class="active"{% endif %}>🇷🇺 Русский</a></li>
-              <li><a href="/de/" onclick="try{localStorage.setItem('tbao_lang','de')}catch(e){}" {% if lang == 'de' %}class="active"{% endif %}>🇩🇪 Deutsch</a></li>
-              <li><a href="/nl/" onclick="try{localStorage.setItem('tbao_lang','nl')}catch(e){}" {% if lang == 'nl' %}class="active"{% endif %}>🇳🇱 Nederlands</a></li>
-              <li><a href="/fr/" onclick="try{localStorage.setItem('tbao_lang','fr')}catch(e){}" {% if lang == 'fr' %}class="active"{% endif %}>🇫🇷 Français</a></li>
+              <li><a href="/" onclick="try{localStorage.setItem('tbao_lang','en')}catch(e){}" {% if lang == 'en' %}class="active"{% endif %}>English</a></li>
+              <li><a href="/zh/" onclick="try{localStorage.setItem('tbao_lang','zh')}catch(e){}" {% if lang == 'zh' %}class="active"{% endif %}>中文</a></li>
+              <li><a href="/zh-HK/" onclick="try{localStorage.setItem('tbao_lang','zh-HK')}catch(e){}" {% if lang == 'zh-HK' %}class="active"{% endif %}>繁體中文(港)</a></li>
+              <li><a href="/zh-TW/" onclick="try{localStorage.setItem('tbao_lang','zh-TW')}catch(e){}" {% if lang == 'zh-TW' %}class="active"{% endif %}>繁體中文(台)</a></li>
+              <li><a href="/ja/" onclick="try{localStorage.setItem('tbao_lang','ja')}catch(e){}" {% if lang == 'ja' %}class="active"{% endif %}>日本語</a></li>
+              <li><a href="/ko/" onclick="try{localStorage.setItem('tbao_lang','ko')}catch(e){}" {% if lang == 'ko' %}class="active"{% endif %}>한국어</a></li>
+              <li><a href="/vi/" onclick="try{localStorage.setItem('tbao_lang','vi')}catch(e){}" {% if lang == 'vi' %}class="active"{% endif %}>Tiếng Việt</a></li>
+              <li><a href="/id/" onclick="try{localStorage.setItem('tbao_lang','id')}catch(e){}" {% if lang == 'id' %}class="active"{% endif %}>Bahasa Indonesia</a></li>
+              <li><a href="/tr/" onclick="try{localStorage.setItem('tbao_lang','tr')}catch(e){}" {% if lang == 'tr' %}class="active"{% endif %}>Türkçe</a></li>
+              <li><a href="/ru/" onclick="try{localStorage.setItem('tbao_lang','ru')}catch(e){}" {% if lang == 'ru' %}class="active"{% endif %}>Русский</a></li>
+              <li><a href="/de/" onclick="try{localStorage.setItem('tbao_lang','de')}catch(e){}" {% if lang == 'de' %}class="active"{% endif %}>Deutsch</a></li>
+              <li><a href="/nl/" onclick="try{localStorage.setItem('tbao_lang','nl')}catch(e){}" {% if lang == 'nl' %}class="active"{% endif %}>Nederlands</a></li>
+              <li><a href="/fr/" onclick="try{localStorage.setItem('tbao_lang','fr')}catch(e){}" {% if lang == 'fr' %}class="active"{% endif %}>Français</a></li>
             </ul>
           </div>
         </div>
