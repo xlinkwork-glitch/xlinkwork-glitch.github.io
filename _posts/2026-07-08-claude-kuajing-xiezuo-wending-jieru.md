@@ -6,7 +6,7 @@ tags: [Claude, 企业协作, 独享 IP, 跨境办公, 通宝VPN]
 lang: zh
 excerpt: "长文档生成卡在中途、Claude Code 终端会话总断、企业 IP 白名单今天能登录明天被拦——出海团队用 Claude 协作时的网络痛点该怎么解决？"
 description: "跨境团队用 Claude 做文档协作、代码辅助时，经常遇到生成中断、会话掉线，甚至企业 IP 白名单因出口 IP 漂移而失效。本文解析原因及通宝VPN办公专线的稳定接入方案。"
-image: /assets/images/covers/dedicated-ip.svg
+image: /assets/images/covers/claude-office.svg
 faq:
   - q: "为什么 Claude 生成长文档或大段代码时容易卡在中途？"
     a: "长内容依赖持续的流式传输，请求耗时越长，途中经过的国际网络节点越多，遇到延迟突增或丢包的概率也越高，连接一旦被打断，生成就会中止。"
