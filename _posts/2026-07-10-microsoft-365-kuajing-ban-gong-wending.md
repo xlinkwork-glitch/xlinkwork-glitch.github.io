@@ -6,7 +6,7 @@ tags: [Microsoft 365, Outlook, OneDrive, Teams, 通宝VPN]
 lang: zh
 excerpt: "Outlook 收发邮件延迟、OneDrive 文件同步卡在“处理中”、Teams 会议共享屏幕卡顿——微软全家桶在跨境办公场景下的老毛病该怎么解决？"
 description: "Microsoft 365 中的 Outlook、OneDrive、Teams 在跨境办公场景下经常出现同步慢、收发延迟、会议卡顿等问题。本文解析根本原因，以及通宝VPN办公专线的稳定接入方案。"
-image: /assets/images/covers/zoom-office.svg
+image: /assets/images/covers/microsoft365-office.svg
 faq:
   - q: "为什么 OneDrive 显示“正在处理更改”卡住不动？"
     a: "OneDrive 同步依赖持续的网络连接上传下载文件差异，国际链路延迟高或丢包时，同步进度容易卡在某个百分比不动，需要等待连接恢复或重新触发同步。"

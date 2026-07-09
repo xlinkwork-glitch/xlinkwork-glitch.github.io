@@ -7,7 +7,7 @@ tags: [GitHub Copilot, Cursor, AI coding, remote dev teams, TongbaoVPN]
 lang: en
 excerpt: "Copilot suggestions taking seconds to appear, Cursor stuck on 'generating' — for distributed dev teams, this isn't bad luck. It's the international route your traffic is taking."
 description: "GitHub Copilot and Cursor often feel slow or unresponsive for developers connecting across long international routes. This guide breaks down why, and how a dedicated office line fixes it."
-image: /assets/images/covers/chatgpt-office.svg
+image: /assets/images/covers/ai-coding-office.svg
 faq:
   - q: "Why does GitHub Copilot take seconds to suggest completions sometimes?"
     a: "Copilot sends your code context to a model server and waits for a response. If the round trip crosses a congested international route, that latency shows up directly as a delay before the suggestion appears."

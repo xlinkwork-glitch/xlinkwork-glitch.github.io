@@ -150,10 +150,19 @@ speakable_selector:
 
 | 文件 | 适用话题 |
 |------|---------|
-| `chatgpt-office.svg` | ChatGPT 办公 / AI 工具接入 |
-| `zoom-office.svg` | Zoom / Teams / 视频会议 |
-| `dedicated-ip.svg` | 独享 IP / 账号接入稳定性 |
-| `intro.svg` | 产品综合介绍 |
+| `chatgpt-office.svg` | 仅限 ChatGPT 专题文章 |
+| `gemini-office.svg` | 仅限 Gemini 专题文章 |
+| `claude-office.svg` | 仅限 Claude 专题文章 |
+| `ai-coding-office.svg` | GitHub Copilot / Cursor 等 AI 编程工具 |
+| `ai-tools-office.svg` | 涉及多个 AI 工具、无单一品牌名可用的文章（如 Slack/Notion/Figma、Midjourney/Canva） |
+| `google-workspace-office.svg` | 仅限 Google Workspace（Gmail/Drive/Meet）专题文章 |
+| `microsoft365-office.svg` | 仅限 Microsoft 365（Outlook/OneDrive/Teams）专题文章 |
+| `payment-office.svg` | 跨境收款平台（Stripe/PayPal/Wise）专题文章 |
+| `zoom-office.svg` | Zoom / Teams 等纯视频会议场景，或标题同时提到多个不同品类工具（如 "Zoom·ChatGPT"）拆不出单一封面时的兜底 |
+| `dedicated-ip.svg` | 独享 IP / 跨境电商后台等账号接入稳定性场景 |
+| `intro.svg` | 通宝VPN 产品综合介绍（非具体第三方工具/平台的文章） |
+
+> **封面图与标题一致性（强制）**：文章标题里点名了具体产品（ChatGPT / Gemini / Claude / Google Workspace / Microsoft 365 / Stripe·PayPal·Wise 等）时，封面图必须使用该产品专属的 svg，不能用 `intro.svg`、`zoom-office.svg` 等泛化封面顶替——否则首页卡片会出现"标题写 A，封面图写通用文案甚至无关品牌"的不一致观感。`intro.svg` 只留给通宝VPN 自身产品介绍类文章，不要用来兜底"没想好用哪张图"的情况。只有标题本身就是多工具/多品类泛谈（无法归到单一品牌）时才用 `ai-tools-office.svg` 或 `zoom-office.svg` 兜底。新增专属品牌封面时，照抄现有 svg 的渐变/网格/CTA 结构，只换 badge、标题、副标题、caption 四处文字。
 
 ### 5.4 分类参考
 

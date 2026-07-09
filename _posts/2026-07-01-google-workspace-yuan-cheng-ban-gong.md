@@ -8,7 +8,7 @@ tags: [Google Workspace, Gmail, Google Drive, Google Meet, 通宝VPN, 远程办�
 lang: zh
 excerpt: "Gmail 收发延迟、Google Drive 上传失败、Google Meet 视频频繁断线？本文详解外企员工和远程团队如何通过通宝VPN办公专线彻底解决 Google Workspace 全套工具的连接问题。"
 description: "针对外企员工和跨国团队，详解 Gmail、Google Drive、Google Meet、Google Docs 在国内的常见连接问题，以及如何通过通宝VPN办公专线实现稳定流畅的 Google Workspace 使用体验。"
-image: /assets/images/covers/zoom-office.svg
+image: /assets/images/covers/google-workspace-office.svg
 ---
 
 在外资企业或跨国团队工作，Google Workspace 几乎是每天工作的核心平台：Gmail 处理邮件往来、Google Drive 存储共享文件、Google Meet 开视频会议、Google Docs 多人实时协作。然而对于身处国内的员工来说，这套工具链的使用体验往往令人头痛——邮件发出去迟迟没有发送成功的提示，Drive 上传一半就卡死，Meet 会议视频画面模糊得看不清人脸，Docs 里的实时光标半天才跟上……

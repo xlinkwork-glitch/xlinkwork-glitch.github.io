@@ -8,7 +8,7 @@ tags: [Slack, Notion, Figma, 远程协作, 通宝VPN, 跨境办公]
 lang: zh
 excerpt: "Slack 消息推送失败、Notion 页面加载龟速、Figma 设计文件同步出错——这是跨境远程团队最常见的工具链痛点。通宝VPN办公专线一站式解决，让整条协作工具链全程流畅。"
 description: "针对使用 Slack、Notion、Figma 的跨境远程团队，深度分析各工具在国内的连接问题，以及如何通过通宝VPN办公专线实现整条现代远程协作工具链的稳定流畅使用。"
-image: /assets/images/covers/chatgpt-office.svg
+image: /assets/images/covers/ai-tools-office.svg
 ---
 
 现代远程团队的工作方式已经高度依赖一套成熟的工具链：用 Slack 沟通和推送消息、用 Notion 管理知识库和项目文档、用 Figma 进行界面设计和原型协作。这套组合在国际远程团队中几乎是标准配置，高效、灵活、实时。

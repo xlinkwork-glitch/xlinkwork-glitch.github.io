@@ -6,7 +6,7 @@ tags: [Midjourney, Canva, AI 设计, 跨境办公, 通宝VPN]
 lang: zh
 excerpt: "Midjourney 生成图一直转圈出不来，Canva 上传素材上传到一半失败——跨境团队用 AI 设计工具做营销物料时的网络卡点该怎么破？"
 description: "跨境电商和营销团队常用 Midjourney、Canva 等 AI 设计工具制作素材，本文解析生成慢、上传失败等问题的网络成因，以及通宝VPN办公专线的稳定接入方案。"
-image: /assets/images/covers/chatgpt-office.svg
+image: /assets/images/covers/ai-tools-office.svg
 faq:
   - q: "Midjourney 生成图片一直转圈不出结果是什么原因？"
     a: "生成任务提交后，客户端需要持续和服务器保持连接等待渲染结果推送回来，国际链路延迟高或丢包时，这条连接容易被打断，表现为长时间转圈甚至任务失败。"

@@ -6,7 +6,7 @@ tags: [Gemini, Google AI, AI 加速, 跨境办公, 通宝VPN]
 lang: zh
 excerpt: "打开 Gemini 处理工作任务，页面却反复弹出 An internal error has occurred，对话中途卡死或直接过载——这是跨境办公团队接入海外 AI 服务时的常见网络问题。"
 description: "Gemini 网页版和客户端频繁出现 An internal error has occurred 报错、过载提示、掉线等问题，本文解析根本原因及通宝VPN办公专线的稳定接入方案。"
-image: /assets/images/covers/chatgpt-office.svg
+image: /assets/images/covers/gemini-office.svg
 faq:
   - q: "Gemini 一直提示 An internal error has occurred 是什么原因？"
     a: "这条提示通常出现在请求在传输过程中被打断或长时间未收到完整响应时，国内到 Google 服务器的网络链路延迟高、丢包多是最常见的诱因，尤其是在办公高峰时段更容易触发。"
