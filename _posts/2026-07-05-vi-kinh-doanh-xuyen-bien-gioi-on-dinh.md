@@ -7,7 +7,7 @@ tags: [thương mại xuyên biên giới, Amazon Seller Central, Shopee, IEPL, 
 lang: vi
 excerpt: "Đăng nhập Seller Central mất cả chục giây, tải ảnh sản phẩm lên nửa chừng thì lỗi, báo cáo doanh thu load mãi không xong — đây là vấn đề đường truyền quốc tế, không phải lỗi của bạn."
 description: "Đội ngũ bán hàng xuyên biên giới thường gặp tình trạng trang quản trị Amazon, Shopee, TikTok Shop tải chậm, đăng nhập lag. Bài viết phân tích nguyên nhân và giải pháp đường truyền văn phòng ổn định từ TongbaoVPN."
-image: /assets/images/covers/dedicated-ip.svg
+image: /assets/images/covers/vi-kinh-doanh-xuyen-bien-gioi-on-dinh.webp
 faq:
   - q: "Vì sao trang quản trị Amazon Seller Central lại tải chậm như vậy?"
     a: "Máy chủ của Amazon đặt tại các trung tâm dữ liệu ở nước ngoài. Dữ liệu phải đi qua nhiều điểm trung chuyển quốc tế, độ trễ và tỷ lệ mất gói tin cao vào giờ cao điểm khiến trang tải chậm hoặc bị treo."

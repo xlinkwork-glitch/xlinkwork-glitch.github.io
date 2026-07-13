@@ -6,7 +6,7 @@ tags: [GitHub Copilot, Cursor, AI 编程, 出海研发, 通宝VPN]
 lang: zh
 excerpt: "GitHub Copilot 补全建议半天不出来，Cursor 的 AI 对话经常卡在生成中——出海研发团队每天都要和这类延迟较劲。本文解析原因及稳定接入方案。"
 description: "GitHub Copilot、Cursor 等 AI 编程工具在国内使用时经常出现补全延迟、连接超时。本文解析出海研发团队遇到的问题根源，以及通宝VPN办公专线的稳定接入方案。"
-image: /assets/images/covers/ai-coding-office.svg
+image: /assets/images/covers/ai-biancheng-gongju-yanfa-wending.webp
 faq:
   - q: "为什么 GitHub Copilot 补全建议经常要等好几秒？"
     a: "Copilot 补全需要将代码上下文实时发送到海外模型服务器并等待返回，国内到海外的网络延迟和丢包会直接拉长这个往返时间，延迟越高等待感越明显。"

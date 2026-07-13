@@ -7,7 +7,7 @@ tags: [IEPL, dedicated line, cross-border office, network fundamentals, TongbaoV
 lang: en
 excerpt: "'Accelerated' can mean very different things. Here's the actual difference between an IEPL private line, CDN acceleration, and a public proxy node — and which one your team actually needs."
 description: "A technical breakdown of IEPL (International Ethernet Private Line): latency, dedicated bandwidth, and how it differs from CDN acceleration — explained for cross-border office teams."
-image: /assets/images/covers/dedicated-ip.svg
+image: /assets/images/covers/en-iepl-private-line-explained.webp
 faq:
   - q: "What's the difference between an IEPL line and a regular VPN node?"
     a: "A regular node typically routes over the shared public internet through multiple carriers and international exchanges, so route quality is unpredictable. IEPL is a carrier-grade, point-to-point dedicated international line, physically separated from public traffic, with a fixed route — so latency and packet loss are far more consistent."

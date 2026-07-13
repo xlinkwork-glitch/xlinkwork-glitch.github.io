@@ -7,7 +7,7 @@ tags: [Stripe, PayPal, Wise, grenzüberschreitende Zahlungen, TongbaoVPN]
 lang: de
 excerpt: "Das Umsatz-Dashboard bei Stripe lädt und lädt, der PayPal-Export bricht mittendrin ab, die Wise-Überweisung hängt im Status 'wird bearbeitet' — ein bekanntes Problem für internationale Teams."
 description: "Teams, die grenzüberschreitend mit Stripe, PayPal und Wise arbeiten, kennen langsame Dashboards und abgebrochene Exporte. Dieser Artikel erklärt die eigentliche Ursache und wie eine dedizierte Standleitung von TongbaoVPN das Problem löst."
-image: /assets/images/covers/payment-office.svg
+image: /assets/images/covers/de-stripe-paypal-wise-grenzueberschreitend.webp
 faq:
   - q: "Liegt das Problem beim Login zu Stripe oder PayPal an meinem Konto?"
     a: "Meistens nicht. In den meisten Fällen liegt die Ursache in der hohen Latenz und dem Paketverlust auf der internationalen Route zwischen Ihnen und den Servern des Anbieters — ein reines Netzwerkproblem, kein Kontoproblem."

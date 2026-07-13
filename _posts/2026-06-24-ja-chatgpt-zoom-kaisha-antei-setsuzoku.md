@@ -6,7 +6,7 @@ categories: [ガイド]
 tags: [Zoom 遅延, ChatGPT, リモートワーク, 通宝VPN]
 excerpt: "海外向けリモートワーク中に Zoom がフリーズ、ChatGPT がタイムアウト。国際回線のパケットロスが原因で、IEPL 専用回線が解決策です。"
 description: "Zoom がフリーズしたり ChatGPT が頻繁に切断される場合、国際回線のパケットロスが主な原因です。IEPL 専用回線と AI スマートルーティングによる解決策を解説します。"
-image: /assets/images/covers/zoom-office.svg
+image: /assets/images/covers/ja-chatgpt-zoom-kaisha-antei-setsuzoku.webp
 lang: ja
 faq:
   - q: "なぜ国際 Zoom 会議はローカル通話より不安定なのですか？"

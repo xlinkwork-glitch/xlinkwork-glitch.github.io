@@ -7,7 +7,7 @@ tags: [Tokopedia, Shopee, e-commerce lintas negara, IEPL, TongbaoVPN]
 lang: id
 excerpt: "Login ke seller center lama banget, upload foto produk macet di tengah jalan, laporan penjualan tidak kunjung terbuka — masalah ini sering dialami tim yang mengelola toko lintas negara."
 description: "Tim yang mengelola dashboard Tokopedia, Shopee, dan platform e-commerce lain sering mengalami loading lambat dan koneksi terputus. Artikel ini membahas penyebabnya dan solusi koneksi kantor stabil dari TongbaoVPN."
-image: /assets/images/covers/dedicated-ip.svg
+image: /assets/images/covers/id-tokopedia-shopee-lambat-stabil.webp
 faq:
   - q: "Kenapa dashboard seller Tokopedia atau Shopee sering lemot?"
     a: "Server platform ini umumnya berada di pusat data yang jauh dari lokasi tim, sehingga data harus melewati banyak titik transit internasional. Saat jam sibuk, latensi dan packet loss meningkat, membuat dashboard terasa lambat atau macet."

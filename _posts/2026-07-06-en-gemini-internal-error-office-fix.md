@@ -7,7 +7,7 @@ tags: [Gemini, Google AI, AI tools, cross-border office, TongbaoVPN]
 lang: en
 excerpt: "You ask Gemini to summarize a report, and instead of an answer you get 'An internal error has occurred.' For cross-border teams, this is usually a route quality problem, not a Google outage."
 description: "Gemini frequently shows An internal error has occurred, overload messages, or drops mid-response for teams working across international networks. Here's why, and how a dedicated office line fixes it."
-image: /assets/images/covers/gemini-office.svg
+image: /assets/images/covers/en-gemini-internal-error-office-fix.webp
 faq:
   - q: "Why does Gemini keep showing 'An internal error has occurred'?"
     a: "This message usually appears when a request gets interrupted mid-transfer or times out waiting for a full response. High latency or packet loss on the route between your location and Google's servers is the most common cause, especially during peak office hours."

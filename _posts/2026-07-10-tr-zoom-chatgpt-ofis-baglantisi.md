@@ -7,7 +7,7 @@ tags: [Zoom, ChatGPT, uzaktan çalışma, IEPL, TongbaoVPN]
 lang: tr
 excerpt: "Zoom görüşmesinde ses kesiliyor, görüntü donuyor; ChatGPT yanıtı yarıda kalıyor mu? Bu, uluslararası bağlantı hattındaki paket kaybından kaynaklanıyor — çözümü var."
 description: "Sınır ötesi ekipler için Zoom ve ChatGPT bağlantı sorunlarının gerçek nedeni genellikle uluslararası ağ rotasındaki gecikme ve paket kaybıdır. IEPL hattı ve AI destekli yönlendirme ile bu sorunu nasıl çözebileceğinizi anlatıyoruz."
-image: /assets/images/covers/zoom-office.svg
+image: /assets/images/covers/tr-zoom-chatgpt-ofis-baglantisi.webp
 faq:
   - q: "Zoom görüşmesi neden sürekli donuyor veya sesim kesiliyor?"
     a: "Görüntülü görüşme sürekli bir veri akışına dayanır. Yurt dışındaki sunucularla aranızdaki uluslararası rota üzerinde gecikme veya paket kaybı olduğunda, bu doğrudan donma veya ses kesilmesi olarak kendini gösterir."

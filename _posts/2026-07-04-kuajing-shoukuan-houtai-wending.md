@@ -6,7 +6,7 @@ tags: [Stripe, PayPal, Wise, 跨境收款, 独立站, 通宝VPN]
 lang: zh
 excerpt: "对账时 Stripe 后台图表转半天，PayPal 交易记录导出总超时，Wise 打款页面反复加载失败——跨境收款系统的网络稳定性问题该怎么解决？"
 description: "跨境电商与独立站团队每天都要用 Stripe、PayPal、Wise 等平台查账、对账、打款，本文解析这类跨境收款后台在国内访问不稳定的原因，以及通宝VPN办公专线的解决方案。"
-image: /assets/images/covers/payment-office.svg
+image: /assets/images/covers/kuajing-shoukuan-houtai-wending.webp
 faq:
   - q: "Stripe、PayPal 后台打不开是账号问题吗？"
     a: "多数情况下不是账号问题，而是国内到海外服务器的网络路由延迟高、丢包率高导致的连接不稳定，属于网络层面的问题。"

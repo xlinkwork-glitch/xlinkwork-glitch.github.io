@@ -6,7 +6,7 @@ categories: [튜토리얼]
 tags: [Zoom 지연, ChatGPT, 원격근무, TongBao VPN]
 excerpt: "해외 연결 중 Zoom 화면이 끊기고 ChatGPT 응답이 중단되나요? 국제 회선 패킷 손실이 원인이며, IEPL 전용 회선이 해결책입니다."
 description: "Zoom이 끊기고 ChatGPT가 자주 타임아웃되는 경우, 국제 회선 패킷 손실이 주요 원인입니다. IEPL 전용 회선과 AI 스마트 라우팅으로 해결하는 방법을 설명합니다."
-image: /assets/images/covers/zoom-office.svg
+image: /assets/images/covers/ko-chatgpt-zoom-antae-jeongso.webp
 lang: ko
 faq:
   - q: "왜 국내 통화는 괜찮은데 해외 Zoom은 불안정한가요?"

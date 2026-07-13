@@ -7,7 +7,7 @@ tags: [Claude, AI doanh nghiệp, IP riêng, làm việc xuyên biên giới, To
 lang: vi
 excerpt: "Tạo tài liệu dài bị đứng giữa chừng, phiên làm việc Claude Code hay bị rớt, danh sách IP được phép của doanh nghiệp hôm nay đăng nhập được, hôm sau lại bị chặn — vì sao?"
 description: "Đội nhóm xuyên biên giới dùng Claude để soạn tài liệu, hỗ trợ code thường gặp tình trạng ngắt kết nối giữa chừng, thậm chí danh sách IP được phép (allowlist) của doanh nghiệp bị vô hiệu do IP thay đổi. Bài viết phân tích nguyên nhân và giải pháp từ TongbaoVPN."
-image: /assets/images/covers/claude-office.svg
+image: /assets/images/covers/vi-claude-lam-viec-xuyen-bien-gioi.webp
 faq:
   - q: "Vì sao Claude hay bị đứng giữa chừng khi tạo tài liệu dài hoặc đoạn code lớn?"
     a: "Nội dung dài phụ thuộc vào kết nối streaming liên tục, thời gian xử lý càng lâu thì càng đi qua nhiều điểm trung chuyển quốc tế, xác suất gặp độ trễ cao hoặc mất gói tin cũng tăng theo. Khi kết nối bị gián đoạn, quá trình tạo nội dung sẽ dừng lại."

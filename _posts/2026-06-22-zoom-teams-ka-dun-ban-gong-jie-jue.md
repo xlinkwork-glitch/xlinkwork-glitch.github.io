@@ -7,7 +7,7 @@ categories: [使用教程]
 tags: [Zoom 卡顿, Teams 卡顿, 视频会议, 跨境办公, 通宝VPN]
 excerpt: "Zoom 开会声音断断续续、画面马赛克、频繁掉会？讲清跨境视频会议卡顿的原因，以及用 IEPL 专线彻底解决的方案。"
 description: "Zoom 或 Teams 视频会议声音断续、画面马赛克、频繁掉线？本文讲清跨境链路丢包问题，并用 IEPL 专线 + AI 路由彻底解决视频会议卡顿。"
-image: /assets/images/covers/zoom-office.svg
+image: /assets/images/covers/zoom-teams-ka-dun-ban-gong-jie-jue.webp
 lang: zh
 faq:
   - q: "为什么国内开 Zoom 会议特别容易卡顿？"

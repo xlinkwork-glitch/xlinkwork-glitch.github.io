@@ -7,7 +7,7 @@ tags: [IEPL, đường truyền riêng, làm việc xuyên biên giới, nguyên
 lang: vi
 excerpt: "Cùng gọi là 'tăng tốc' nhưng IEPL, CDN và node proxy công cộng khác nhau hoàn toàn. Bài viết giải thích rõ để đội làm việc xuyên biên giới chọn đúng giải pháp."
 description: "Giải thích nguyên lý kỹ thuật của đường truyền riêng quốc tế IEPL: độ trễ, băng thông riêng, và khác biệt với CDN — dành cho đội ngũ làm việc xuyên biên giới."
-image: /assets/images/covers/dedicated-ip.svg
+image: /assets/images/covers/vi-iepl-duong-truyen-rieng.webp
 faq:
   - q: "Đường truyền riêng IEPL khác gì so với node VPN thông thường?"
     a: "Node thông thường thường đi qua internet công cộng, qua nhiều nhà mạng và điểm trung chuyển quốc tế, chất lượng đường truyền không ổn định. IEPL là tuyến cáp thuê riêng cấp nhà mạng, kết nối điểm-tới-điểm, tách biệt vật lý khỏi lưu lượng công cộng, đường đi cố định nên độ trễ và tỷ lệ mất gói ổn định hơn nhiều."

@@ -7,7 +7,7 @@ categories: [产品介绍]
 tags: [通宝VPN, 办公专线, AI 加速, IEPL 专线, 产品介绍]
 excerpt: "通宝VPN 完整介绍：专为跨境办公和 AI 重度用户打造，IEPL 专线 + AI 路由 + 独享 IP，告别卡顿和连接不稳。"
 description: "通宝VPN 完整介绍：专为跨境办公场景构建，IEPL 国际专线 + AI 智能路由 + 独享纯净 IP，稳定连上 ChatGPT、Zoom、Google Workspace 等海外工具。"
-image: /assets/images/covers/intro.svg
+image: /assets/images/covers/tongbao-vpn-jie-shao.webp
 lang: zh
 faq:
   - q: "通宝VPN 和普通 VPN 有什么核心区别？"

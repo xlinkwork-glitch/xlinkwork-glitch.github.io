@@ -7,7 +7,7 @@ tags: [Google Workspace, Gmail, Google Meet, Google Drive, TongbaoVPN]
 lang: ru
 excerpt: "Письма в Gmail загружаются вечно, файл в Google Drive не хочет синхронизироваться, а звонок в Google Meet постоянно рвётся — знакомая ситуация для распределённых команд."
 description: "Распределённые команды часто сталкиваются с задержками и обрывами при работе с Gmail, Google Drive и Google Meet. В статье разбираем причину этих проблем и решение через выделенную офисную линию TongbaoVPN."
-image: /assets/images/covers/google-workspace-office.svg
+image: /assets/images/covers/ru-google-workspace-udalennaya-rabota.webp
 faq:
   - q: "Почему Gmail так долго загружает список писем и вложения?"
     a: "Серверы Gmail находятся в дата-центрах за рубежом. Каждый запрос проходит через несколько международных узлов передачи, и при высокой задержке или потере пакетов список писем и вложения загружаются медленно или зависают."
