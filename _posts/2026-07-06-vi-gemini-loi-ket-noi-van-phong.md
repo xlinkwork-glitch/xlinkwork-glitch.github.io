@@ -7,7 +7,7 @@ tags: [Gemini, Google AI, công cụ AI, làm việc xuyên biên giới, Tongba
 lang: vi
 excerpt: "Nhờ Gemini tóm tắt báo cáo, thay vì câu trả lời lại nhận được dòng chữ 'An internal error has occurred' — với dân văn phòng xuyên biên giới, đây thường là vấn đề đường truyền, không phải do Google."
 description: "Gemini thường xuyên báo lỗi An internal error has occurred, quá tải, hoặc mất kết nối giữa chừng khi truy cập từ mạng quốc tế. Bài viết phân tích nguyên nhân và giải pháp đường truyền văn phòng ổn định."
-image: /assets/images/covers/gemini-office.svg
+image: /assets/images/covers/vi-gemini-loi-ket-noi-van-phong.webp
 faq:
   - q: "Vì sao Gemini liên tục báo lỗi 'An internal error has occurred'?"
     a: "Lỗi này thường xảy ra khi yêu cầu bị gián đoạn giữa chừng hoặc không nhận được phản hồi đầy đủ trong thời gian chờ. Độ trễ cao hoặc mất gói tin trên tuyến quốc tế là nguyên nhân phổ biến nhất, đặc biệt vào giờ cao điểm làm việc."

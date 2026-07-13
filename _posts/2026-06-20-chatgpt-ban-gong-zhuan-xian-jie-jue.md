@@ -7,7 +7,7 @@ categories: [使用教程]
 tags: [ChatGPT 加速, 办公专线, AI 路由, 跨境办公, 通宝VPN]
 excerpt: "工作中 ChatGPT 一直转圈、对话中断、频繁验证？讲清跨境办公场景的专线加速方案，IEPL + AI 路由让 GPT 开箱即用。"
 description: "工作中 ChatGPT 一直转圈、对话中断、频繁触发验证码？本文针对跨境办公场景，讲清 IEPL 专线 + AI 智能路由的加速方案，让 GPT 在办公环境下开箱即用。"
-image: /assets/images/covers/chatgpt-office.svg
+image: /assets/images/covers/chatgpt-ban-gong-zhuan-xian-jie-jue.webp
 lang: zh
 faq:
   - q: "办公场景用 ChatGPT 为什么比普通用户更容易遇到连接问题？"

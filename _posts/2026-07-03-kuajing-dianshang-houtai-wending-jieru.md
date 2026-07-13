@@ -6,7 +6,7 @@ tags: [跨境电商, 亚马逊卖家后台, 独立站, IEPL专线, 通宝VPN]
 lang: zh
 excerpt: "亚马逊 Seller Central 登录超时、Listing 图片上传失败、报表加载卡死——跨境电商团队每天都在和网络较劲。本文解析根本原因，并给出专线稳定接入方案。"
 description: "跨境电商团队访问亚马逊卖家后台、Shopify 独立站管理台时频繁卡顿超时怎么办？深度解析国际路由延迟与丢包的根本原因，以及通宝VPN办公专线的稳定接入方案。"
-image: /assets/images/covers/dedicated-ip.svg
+image: /assets/images/covers/kuajing-dianshang-houtai-wending-jieru.webp
 faq:
   - q: "为什么亚马逊卖家后台在国内打开特别慢？"
     a: "亚马逊后台服务器部署在海外数据中心，国内到海外的数据包要经过多个中间节点转发，高峰时段延迟和丢包都会明显增加，导致页面加载慢、操作卡顿。"

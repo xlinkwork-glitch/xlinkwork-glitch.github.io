@@ -6,7 +6,7 @@ tags: [IEPL, 专线加速, 跨境办公, 网络原理, 通宝VPN]
 lang: zh
 excerpt: "同样是'加速'，IEPL 专线和普通 CDN 加速、公共代理节点到底有什么区别？本文从原理角度讲清楚跨境办公团队该怎么选。"
 description: "IEPL 国际专用线路的技术原理解析：延迟、带宽独占、与 CDN 加速的区别，帮助跨境办公团队理解为什么专线连接更稳定。"
-image: /assets/images/covers/dedicated-ip.svg
+image: /assets/images/covers/iepl-zhuanxian-jishu-jiexi.webp
 faq:
   - q: "IEPL 专线和普通 VPN 节点有什么区别？"
     a: "普通节点通常复用公共互联网路由，途经多个运营商和国际出口，链路质量不可控；IEPL 是运营商级别的国际专用点对点线路，物理上与公共流量隔离，路由固定，延迟和丢包率都远比公共出口稳定。"

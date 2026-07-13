@@ -7,7 +7,7 @@ categories: [产品介绍]
 tags: [独享 IP, AI 账号安全, ChatGPT 稳定连接, 办公专线, 通宝VPN]
 excerpt: "为什么用了 VPN 还是频繁被要求验证？共享节点出口 IP 被污染是核心原因，解析独享 IP 对办公账号的价值。"
 description: "为什么开了 VPN 还是频繁验证码、访问受到影响？共享节点出口 IP 被多人用烂是核心原因。本文解析独享 IP 对 AI 账号和办公账号的访问稳定性价值。"
-image: /assets/images/covers/dedicated-ip.svg
+image: /assets/images/covers/ban-gong-zhang-hao-wei-he-xu-yao-du-xiang-ip.webp
 lang: zh
 faq:
   - q: "独享 IP 和共享 IP 的区别是什么？"
