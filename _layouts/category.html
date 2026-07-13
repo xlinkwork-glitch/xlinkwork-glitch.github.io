@@ -5,6 +5,9 @@ layout: default
 {% assign lang = page.lang | default: 'en' %}
 {% assign cat = page.category %}
 
+{% include breadcrumb-jsonld.html %}
+{% include breadcrumb.html %}
+
 <h1 class="section-title">{{ cat }}</h1>
 
 {% assign lang_posts = site.posts | where: "lang", lang %}
