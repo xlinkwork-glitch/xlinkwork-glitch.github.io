@@ -3,17 +3,17 @@ layout: default
 ---
 
 {% assign lang = page.lang | default: 'en' %}
-{% assign cat = page.category %}
+{% assign tag = page.tag %}
 
 {% include breadcrumb-jsonld.html %}
 {% include breadcrumb.html %}
 
-<h1 class="section-title">{{ cat }}</h1>
+<h1 class="section-title">{{ tag }}</h1>
 
 {% assign lang_posts = site.posts | where: "lang", lang %}
 <ul class="post-list">
   {% for post in lang_posts %}
-    {% if post.categories contains cat %}
+    {% if post.tags contains tag %}
     <li class="post-item">
       <a class="post-item__link" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
         <div class="post-item__media">
