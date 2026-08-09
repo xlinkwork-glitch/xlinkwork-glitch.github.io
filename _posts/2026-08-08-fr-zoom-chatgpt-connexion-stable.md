@@ -7,7 +7,7 @@ tags: [Zoom, ChatGPT, travail transfrontalier, IEPL, TongbaoVPN]
 lang: fr
 excerpt: "Zoom qui se fige en pleine réunion, ChatGPT qui tourne dans le vide pendant de longues secondes — ces coupures reviennent presque chaque jour pour les équipes qui travaillent avec des outils hébergés à l'étranger."
 description: "Zoom et ChatGPT deviennent instables pour de nombreuses équipes en télétravail transfrontalier. Cet article explique la cause réelle de ces coupures et présente la solution de ligne dédiée TongbaoVPN."
-image: /assets/images/covers/zoom-office.svg
+image: /assets/images/covers/fr-zoom-chatgpt-connexion-stable.webp
 faq:
   - q: "Pourquoi Zoom se fige-t-il surtout pendant le partage d'écran ?"
     a: "Le partage d'écran est un flux vidéo continu qui demande beaucoup plus de bande passante stable que l'audio seul. Sur une connexion publique saturée, ce flux est le premier à souffrir de latence et de perte de paquets."

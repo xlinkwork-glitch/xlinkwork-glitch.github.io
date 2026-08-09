@@ -7,7 +7,7 @@ tags: [GitHub Copilot, Cursor, AI 程式開發, 海外研發, 通宝VPN]
 lang: zh-TW
 excerpt: "寫程式寫到一半，Copilot 自動完成一直轉圈跑不出建議，Cursor 的 AI 對話視窗卡在思考中——這種中斷感，寫過程式的人應該都懂。"
 description: "GitHub Copilot、Cursor 等 AI 程式碼工具在跨境研發場景下經常出現回應延遲、連線中斷等問題。本文解析根本原因，以及通宝VPN辦公專線的穩定連線方案。"
-image: /assets/images/covers/chatgpt-office.svg
+image: /assets/images/covers/zh-tw-github-copilot-cursor-ai-biancheng-wending.webp
 faq:
   - q: "為什麼 GitHub Copilot 的自動完成建議常常跑不出來？"
     a: "Copilot 每一次生成建議都要即時呼叫海外的模型伺服器，國際網路延遲較高或連線不穩定時，建議就會遲遲不出現，或是直接顯示逾時錯誤。"

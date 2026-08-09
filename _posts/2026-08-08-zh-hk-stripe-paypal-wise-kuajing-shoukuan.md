@@ -7,7 +7,7 @@ tags: [Stripe, PayPal, Wise, 跨境收款, 通宝VPN]
 lang: zh-HK
 excerpt: "Stripe 後台登入轉個不停、PayPal 交易記錄遲遲未能載入、Wise 匯款狀態更新極慢——處理跨境收款嘅團隊，幾乎每星期都會撞到呢類問題。"
 description: "跨境收款團隊喺使用 Stripe、PayPal、Wise 等平台時經常遇到登入緩慢、頁面卡頓、數據載入超時等問題。本文分析根本原因，以及通宝VPN辦公專線嘅穩定連線方案。"
-image: /assets/images/covers/intro.svg
+image: /assets/images/covers/zh-hk-stripe-paypal-wise-kuajing-shoukuan.webp
 faq:
   - q: "點解 Stripe 後台登入之後，Dashboard 數據要好耐先載入到？"
     a: "Stripe 嘅服務器主要部署喺海外數據中心，登入之後 Dashboard 需要即時拉取交易、結算等多項數據，國際網絡延遲高或者出現丟包嘅時候，呢個過程就會表現為長時間載入中。"
