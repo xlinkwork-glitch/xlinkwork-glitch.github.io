@@ -6,7 +6,7 @@ tags: [DeepL, Perplexity, AI 调研, 跨境办公, 通宝VPN]
 lang: zh
 excerpt: "写跨境报告要查资料、翻译文件，DeepL 转圈半天出不来结果，Perplexity 搜索卡在加载中——调研和翻译工具的稳定性问题该怎么解决？"
 description: "DeepL、Perplexity、Notion AI 等跨境调研翻译工具在使用中经常出现加载慢、响应超时等问题。本文解析根本原因，以及通宝VPN办公专线的稳定接入方案。"
-image: /assets/images/covers/chatgpt-office.svg
+image: /assets/images/covers/deepl-perplexity-kuajing-diaoyan-fanyi-wending.webp
 faq:
   - q: "DeepL 网页版和客户端哪个更容易受网络影响？"
     a: "网页版每次翻译请求都要重新连接服务器，对网络延迟更敏感；客户端有一定本地缓存和重试机制，但长时间的高延迟或丢包同样会导致翻译结果迟迟不出。"

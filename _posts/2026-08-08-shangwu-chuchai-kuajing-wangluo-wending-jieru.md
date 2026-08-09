@@ -6,7 +6,7 @@ tags: [商务差旅, 出差网络, 跨境办公, 独享 IP, 通宝VPN]
 lang: zh
 excerpt: "出差住酒店，Wi-Fi时好时坏，视频会议开到一半突然卡死；换个国家网络环境又不一样——差旅路上的网络问题该怎么稳定解决？"
 description: "商务差旅途中酒店/机场公共Wi-Fi不稳定、频繁换网络导致连接中断和账号验证问题。本文解析根本原因，以及通宝VPN办公专线的差旅稳定接入方案。"
-image: /assets/images/covers/dedicated-ip.svg
+image: /assets/images/covers/shangwu-chuchai-kuajing-wangluo-wending-jieru.webp
 faq:
   - q: "酒店 Wi-Fi 为什么总是不稳定，视频会议容易卡顿掉线？"
     a: "酒店 Wi-Fi 是全楼客人共享的公共网络，带宽有限且不与差旅办公场景做区分，入住率高峰期或距离路由器较远的房间信号弱，视频会议这类持续传输的场景最容易受影响。"

@@ -7,7 +7,7 @@ tags: [Google Workspace, Gmail, Google Meet, Google Drive, TongbaoVPN]
 lang: nl
 excerpt: "Gmail die traag laadt, Google Drive die blijft hangen bij het synchroniseren, Google Meet die wegvalt tijdens een belangrijk gesprek — herkenbaar voor teams die grensoverschrijdend werken."
 description: "Verspreide teams ondervinden regelmatig vertraging en verbindingsproblemen bij Gmail, Google Drive en Google Meet. Dit artikel legt de oorzaak uit en de oplossing via de dedicated kantoorlijn van TongbaoVPN."
-image: /assets/images/covers/zoom-office.svg
+image: /assets/images/covers/nl-google-workspace-stabiel-verbinden.webp
 faq:
   - q: "Waarom duurt het laden van Gmail zo lang?"
     a: "De servers van Gmail staan in datacenters in het buitenland. Elk verzoek gaat via meerdere internationale knooppunten, en bij hoge latency of pakketverlies laden e-maillijsten en bijlagen merkbaar trager of blijven hangen."
