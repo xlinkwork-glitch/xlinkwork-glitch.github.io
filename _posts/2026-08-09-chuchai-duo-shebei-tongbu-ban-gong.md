@@ -6,7 +6,7 @@ tags: [全平台, 多设备同步, 跨境办公, 通宝VPN]
 lang: zh
 excerpt: "机场候机用手机回邮件，到酒店换笔记本继续工作，两边网络环境都要重新连接——出差路上多设备切换的稳定接入该怎么解决？"
 description: "跨境出差中手机、笔记本频繁切换导致VPN连接中断、账号反复验证的问题分析，以及通宝VPN全平台（Windows/macOS/iOS/Android）同步方案。"
-image: /assets/images/covers/intro.svg
+image: /assets/images/covers/chuchai-duo-shebei-tongbu-ban-gong.webp
 faq:
   - q: "手机和笔记本换着用，VPN 连接需要分别设置吗？"
     a: "不需要分别配置。同一个通宝VPN 账号可以在 Windows / macOS / iOS / Android 上分别登录使用，切换设备时保持相同的连接方式和出口 IP 规则，不用每次重新设置代理规则。"
