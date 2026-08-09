@@ -6,7 +6,7 @@ tags: [ChatGPT, ChatGPT Team, 企业账号管理, AI 加速, 通宝VPN]
 lang: zh
 excerpt: "公司开通了 ChatGPT Team/Enterprise 账号，团队成员却分布在不同城市出差，登录 IP 一乱就被要求验证——IT 该怎么统一管理？"
 description: "企业采购ChatGPT Team/Enterprise后，团队成员跨境跨城出差导致登录异常、席位访问不稳定的问题分析，以及IT统一部署通宝VPN办公专线的解决方案。"
-image: /assets/images/covers/chatgpt-office.svg
+image: /assets/images/covers/chatgpt-team-qiye-zhanghao-kuajing-guanli.webp
 faq:
   - q: "团队多人共用 ChatGPT Team 账号，登录 IP 不统一有什么影响？"
     a: "ChatGPT Team/Enterprise 下的多个席位如果各自从分散、多变的出口 IP 登录，平台的异常检测机制更容易将这种模式判定为风险信号，进而触发批量验证甚至临时限制，而不是某一个人的问题。"

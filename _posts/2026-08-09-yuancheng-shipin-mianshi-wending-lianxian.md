@@ -6,7 +6,7 @@ tags: [Zoom, 远程面试, 跨境招聘, 视频会议, 通宝VPN]
 lang: zh
 excerpt: "候选人在海外、面试官在国内，Zoom 面试进行到一半突然卡顿掉线——招聘团队的跨境视频面试网络问题该怎么解决？"
 description: "跨境招聘远程面试中 Zoom 视频卡顿、掉线、录制丢帧等网络问题的根本原因分析，以及通宝VPN办公专线的稳定接入方案。"
-image: /assets/images/covers/zoom-office.svg
+image: /assets/images/covers/yuancheng-shipin-mianshi-wending-lianxian.webp
 faq:
   - q: "为什么视频面试比日常办公会议更容易出问题？"
     a: "面试有严格的时间窗口，不能像日常会议一样随时重连或改期，对网络连续性的容错空间更小。一旦某个环节卡顿掉线，往往意味着面试官、候选人、协调 HR 三方都要重新对时间，成本比普通会议高得多。"
