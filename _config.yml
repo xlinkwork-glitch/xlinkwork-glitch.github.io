@@ -21,6 +21,9 @@ social:
 timezone: Asia/Shanghai
 permalink: /:year/:month/:day/:title/
 
+# 未来日期的文章不构建，由 .github/workflows/daily-publish.yml 每日触发重建后自动上线
+future: false
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

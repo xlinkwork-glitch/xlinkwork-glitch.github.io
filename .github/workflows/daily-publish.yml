@@ -1,0 +1,85 @@
+name: Daily Publish
+
+# 仓库里存放着未来日期的文章（_config.yml 设置 future: false，未到日期不构建）。
+# GitHub Pages 只在 push 时重建，所以这里每天定时触发一次重建，让当天的文章自动上线，
+# 并把当天上线的文章 URL 提交给 IndexNow。
+
+on:
+  schedule:
+    # 02:10 UTC = 10:10 UTC+8，文章 date 统一为 10:00 +0800，留 10 分钟余量
+    - cron: '10 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Trigger GitHub Pages rebuild
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          HTTP_CODE=$(curl -s -o /tmp/build.json -w "%{http_code}" \
+            -X POST "https://api.github.com/repos/${GITHUB_REPOSITORY}/pages/builds" \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "X-GitHub-Api-Version: 2022-11-28")
+
+          echo "HTTP $HTTP_CODE"
+          cat /tmp/build.json || true
+
+          if [ "$HTTP_CODE" = "201" ]; then
+            echo "Pages rebuild requested"
+          else
+            echo "Pages rebuild request failed with HTTP $HTTP_CODE"
+            exit 1
+          fi
+
+      - name: Submit today's post to IndexNow
+        run: |
+          KEY="7651BD70C532234E05D4AB3DEFCC9DF6"
+          SITE="https://xlinkwork-glitch.github.io"
+          HOST="xlinkwork-glitch.github.io"
+
+          # 以 UTC+8 判断"今天"，与文章 front matter 的时区一致
+          TODAY=$(TZ=Asia/Shanghai date +%Y-%m-%d)
+          echo "Looking for posts dated ${TODAY}"
+
+          URLS=()
+          for f in _posts/${TODAY}-*.md; do
+            [ -e "$f" ] || continue
+            basename=$(basename "$f" .md)
+            year="${basename:0:4}"
+            month="${basename:5:2}"
+            day="${basename:8:2}"
+            slug="${basename:11}"
+            URLS+=("\"${SITE}/${year}/${month}/${day}/${slug}/\"")
+          done
+
+          if [ ${#URLS[@]} -eq 0 ]; then
+            echo "No post dated ${TODAY}, skipping IndexNow submission"
+            exit 0
+          fi
+
+          URL_JSON=$(IFS=,; echo "${URLS[*]}")
+          echo "Submitting URLs: ${URL_JSON}"
+
+          HTTP_CODE=$(curl -s -o /tmp/resp.json -w "%{http_code}" \
+            -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "{\"host\":\"${HOST}\",\"key\":\"${KEY}\",\"keyLocation\":\"${SITE}/${KEY}.txt\",\"urlList\":[${URL_JSON}]}")
+
+          echo "HTTP $HTTP_CODE"
+          cat /tmp/resp.json || true
+
+          if [ "$HTTP_CODE" = "200" ] || [ "$HTTP_CODE" = "202" ]; then
+            echo "IndexNow submission succeeded"
+          else
+            echo "IndexNow submission failed with HTTP $HTTP_CODE"
+            exit 1
+          fi
