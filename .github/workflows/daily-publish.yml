@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
 
 jobs:
@@ -20,6 +20,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # 首选：直接请求一次 Pages 构建，不产生任何提交。
+      # 若该接口不可用（权限/仓库类型差异），退回到推一个空提交来触发构建。
       - name: Trigger GitHub Pages rebuild
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -34,11 +36,16 @@ jobs:
           cat /tmp/build.json || true
 
           if [ "$HTTP_CODE" = "201" ]; then
-            echo "Pages rebuild requested"
-          else
-            echo "Pages rebuild request failed with HTTP $HTTP_CODE"
-            exit 1
+            echo "Pages rebuild requested via API"
+            exit 0
           fi
+
+          echo "Pages build API returned HTTP $HTTP_CODE, falling back to empty commit"
+          git config user.email "xlinkwork-glitch@users.noreply.github.com"
+          git config user.name "xlinkwork-glitch"
+          git commit --allow-empty -m "chore: daily rebuild trigger"
+          git push origin HEAD:main
+          echo "Empty commit pushed, Pages rebuild triggered"
 
       - name: Submit today's post to IndexNow
         run: |
