@@ -57,15 +57,24 @@ jobs:
           TODAY=$(TZ=Asia/Shanghai date +%Y-%m-%d)
           echo "Looking for posts dated ${TODAY}"
 
+          # URL 必须按 permalink 推导：zh 文章 front matter 没有 permalink，走
+          # _config.yml defaults 的 /zh/:year/:month/:day/:title/；小语种文章在
+          # front matter 里显式写了自己的 permalink。直接用 /年/月/日/slug/ 会得到 404。
           URLS=()
           for f in _posts/${TODAY}-*.md; do
             [ -e "$f" ] || continue
-            basename=$(basename "$f" .md)
-            year="${basename:0:4}"
-            month="${basename:5:2}"
-            day="${basename:8:2}"
-            slug="${basename:11}"
-            URLS+=("\"${SITE}/${year}/${month}/${day}/${slug}/\"")
+            name=$(basename "$f" .md)
+            year="${name:0:4}"
+            month="${name:5:2}"
+            day="${name:8:2}"
+            slug="${name:11}"
+            pl=$(sed -n 's/^permalink:[[:space:]]*//p' "$f" | head -1)
+            [ -z "$pl" ] && pl="/zh/:year/:month/:day/:title/"
+            pl="${pl//:year/$year}"
+            pl="${pl//:month/$month}"
+            pl="${pl//:day/$day}"
+            pl="${pl//:title/$slug}"
+            URLS+=("\"${SITE}${pl}\"")
           done
 
           if [ ${#URLS[@]} -eq 0 ]; then
