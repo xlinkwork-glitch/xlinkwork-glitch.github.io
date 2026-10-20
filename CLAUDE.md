@@ -23,7 +23,7 @@ git remote -v
 # origin  git@github-xlinkwork:xlinkwork-glitch/... (fetch)
 # origin  git@github-xlinkwork:xlinkwork-glitch/... (push)
 
-# 若 remote 显示 github.com，立即修正（否则会走 机器上的默认 SSH key）：
+# 若 remote 显示 github.com，立即修正（否则会走机器上的默认 SSH key）：
 git remote set-url origin git@github-xlinkwork:xlinkwork-glitch/xlinkwork-glitch.github.io.git
 
 # 步骤 3：推送
@@ -32,7 +32,7 @@ git push origin main
 
 **必须使用本仓库自己的仓库级身份，绝不能落到机器上的全局身份**（作者栏和提交者栏都要核对）。本文件是公开的，禁止写入任何个人真实姓名或其他账号的用户名、邮箱。
 
-> ⚠️ **教训（2026-06）**：重建 GitHub 仓库后，GitHub 给出的初始化命令用的是 `git@github.com:...`，这会走 机器上的默认 SSH key 导致推送失败或身份泄露。每次重建仓库后必须手动把 remote 改为 `github-xlinkwork` alias 再推送。
+> ⚠️ **教训（2026-06）**：重建 GitHub 仓库后，GitHub 给出的初始化命令用的是 `git@github.com:...`，这会走机器上的默认 SSH key 导致推送失败或身份泄露。每次重建仓库后必须手动把 remote 改为 `github-xlinkwork` alias 再推送。
 
 ---
 
